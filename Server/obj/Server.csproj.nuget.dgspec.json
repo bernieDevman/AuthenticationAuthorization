@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bernardo.gutierrez\\source\\repos\\bernieDevman\\github\\AuthenticationAuthorization\\Server\\Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bernardo.gutierrez\\source\\repos\\bernieDevman\\github\\AuthenticationAuthorization\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bernardo.gutierrez\\source\\repos\\bernieDevman\\github\\AuthenticationAuthorization\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\bernardo.gutierrez\\source\\repos\\bernieDevman\\github\\AuthenticationAuthorization\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\bernardo.gutierrez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bernardo.gutierrez\\source\\repos\\bernieDevman\\github\\AuthenticationAuthorization\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bernardo.gutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
